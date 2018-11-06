@@ -1,0 +1,559 @@
+@font-face {
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 50%; 
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+body {
+        background: url('images/fond-bleu.jpg');
+        font-family: 'Trebuchet MS', Arial, sans-serif;
+        color: #181818;
+    }
+a.top1 {
+        position:fixed;
+        margin-top: 550px;
+}
+a.top2 {
+        position:fixed;
+        margin-top: 615px;
+}
+a.top3 {
+    position:fixed;
+    margin-top: 485px;
+}
+/*Header*/
+nav a {
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.head1 {
+    background-color: grey;
+    opacity: 0.94;
+    position: fixed;
+    top: 0;
+    height: 70px;
+    left: 0;
+    line-height: 100px;
+    width: 100%;
+    z-index: 1;
+}
+nav ul {
+    list-style-type: none;
+    margin-top: -10px;
+     margin-left: 5%;
+}
+nav li {
+    display: inline-block;
+    margin-left: 3%;
+}
+nav a {
+    font-size: 1em;
+    color: #101010;
+    padding-bottom: 1%;
+    text-decoration: none;
+}
+.acceuil {
+    margin-left: 9%;
+    margin-top : 1.5%;
+}
+nav a:hover {
+    color: #BFFFFF;
+    border-bottom: 3px solid #BFFFFF;
+}
+
+/*Page d'acceuil globl*/
+.acc {
+    background: url('images/separateur.png') repeat-x bottom;
+    position: relative;
+    margin-top: 5%;
+    padding: 1%;
+    padding-bottom: 1%;
+    text-align: justify;
+    color: black;
+    font-size: 0.9em;
+}
+
+/*Page CV globl*/
+.cv {
+    background: url('images/separateur.png') repeat-x bottom;
+    position: relative;
+    margin-top: 1%;
+    padding: 1%;
+    padding-bottom: 8%;
+    text-align: justify;
+}
+.cv em {
+    color: red;
+    position: absolute;
+    left: 6%;
+}
+.cv li {
+    margin-top: 4%;
+}
+.liste {
+    padding-bottom: 4%;
+}
+.alinea1 {
+    margin-left: 10%;
+    list-style-type:none;
+}
+.alinea2 {
+    padding-left: 1em;
+    list-style-type:none;
+}
+.line {
+    background-color:black;
+    height: 2px;
+}
+.button {
+    position: absolute;
+    right: 52%;
+    background-color: grey;
+    border: none;
+    border-radius: 20px;
+    padding: 0.7% 2%;
+    text-align: center;
+    font-size: 1em;
+    text-decoration: none;
+    color: #BFFFFF;
+	}
+.button:hover {
+    color: red;
+}
+
+/*Page réalisation globl*/
+.titrereal {
+    text-align: center;
+    font-family: Dayrom, serif;
+    font-size: 1.5em;
+}
+.real {
+    background: url('images/separateur.png') repeat-x bottom;
+    position: relative;
+    margin-top: 1%;
+    padding: 1%;
+    padding-bottom: 8%;
+    text-align: justify;
+}
+.txt1 {
+    font-size: 1.2em;
+    text-align: justify;
+    margin-right: 52%;
+}
+.txt2 {
+    font-size: 1.2em;
+    margin-top: 4%;
+    text-align: justify;
+    margin-left: 52%;
+}
+.titremid {
+    text-align: center;
+    font-family: Dayrom, serif;
+    font-size: 1.5em;
+    margin-top: 6%;
+}
+.txt3 {
+    width: 60%;
+    font-size: 1.2em;
+    margin-top: 2%;
+    text-align: justify;
+    margin-left: 20%;
+}
+.titremid2 {
+        text-align: center;
+        font-family: Dayrom, serif;
+        font-size: 1.5em;
+        margin-top: 6%;
+}
+.texte3 {
+    width: 60%;
+    font-size: 1.2em;
+    margin-top: 1%;
+    text-align: justify;
+    margin-left: 20%;
+    margin-bottom: -5%;
+}
+
+/*Centres d'intérêt globl*/
+.centre {
+    background: url('images/separateur.png') repeat-x bottom;
+    position: relative;
+    margin-top: 1%;
+    padding: 1%;
+    padding-bottom: 8%;
+    text-align: justify;
+}
+.titrecentre {
+    text-align: center;
+    font-family: Dayrom, serif;
+    font-size: 1.5em;
+}
+.texte1 {
+    font-size: 1.2em;
+    text-align: justify;
+    margin-right: 52%;
+}
+
+/*Formulaire globl*/
+.form {
+    background: url('images/separateur.png') repeat-x bottom;
+    text-align: center;
+    margin-top: 1%;
+    padding-bottom: 1%;
+    min-height:100%;
+     position:relative;
+}
+legend {
+    text-align: left;
+    margin-left: 10%;
+    padding: 0.5% 5px;
+    text-align: justify;
+    font-weight: bold;
+}
+label {
+    width: 10%;
+    display: inline-block;
+    margin: 0.5%;
+}
+.rouge {
+    color: red;
+}
+input[type=radio] {
+    margin-left: 3%;
+    margin-right: -1%;
+}
+.obligatoire {
+    margin-top: -2%;
+}
+input[type=submit] {
+    width: 7%;
+    padding: 0.5%;
+    min-width: 90px;
+}
+input[type=reset] {
+    width: 7%;
+    padding: 0.5%;
+    min-width: 90px;
+}
+
+/*Ecran*/
+@media all and (min-width: 1281px) {
+    #bloc_page {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    /*Menu gauche*/
+    a.top1 {
+        margin-left: 0.5%;
+    }
+    a.top2 {
+        margin-left: 0.5%;
+    }
+    a.top3 {
+        margin-left: 0.3%;
+    }
+    /*Footer*/
+    .gauche {
+        position: relative;
+        margin-top: 3.5%;
+    }
+    .mid {
+        position: relative;
+        margin-top: -2%;
+        text-align: center;
+    }
+    .droite {
+        position: absolute;
+        right: 10%;
+        margin-top: -4%;
+    }
+    h1 {
+        text-align: center;
+        margin-top: 70px;
+        font-family: Dayrom, serif;
+        font-size: 3em;
+    }
+
+
+    /*Page d'acceuil*/
+    .anim {
+        margin-top: 0;
+        animation: 5s 1 slidein;
+    }
+    .acc {
+        background: url('images/separateur.png') repeat-x bottom;
+        position: relative;
+        margin-top: 5%;
+        padding: 1%;
+        padding-bottom: 1%;
+        text-align: justify;
+        color: black;
+        font-size: 0.9em;
+    }
+    .carte {
+        margin-top: 5%;
+        margin-left: 20%;
+        width: 60%;
+    }
+    .imgmoi{
+        position: absolute;
+        left: 10%;
+        top : 27%;
+    }
+
+
+    /*Page CV*/
+    .cv {
+        background: url('images/separateur.png') repeat-x bottom;
+        position: relative;
+        margin-top: 1%;
+        padding: 1%;
+        padding-bottom: 8%;
+        text-align: justify;
+    }
+    .cv em {
+        font-size: 2.5em;
+    }
+    .form {
+        margin-top: -4.5%;
+    }
+    .exp {
+        margin-top: -4.5%;
+    }
+    .comp {
+        margin-top: -4.5%;
+    }
+    .centres {
+        margin-top: -4.5%;
+    }
+    .cv ul {
+        font-size: 1.5em;
+        width: 55%;
+        margin-left: 42%;
+        margin-top: 2%;
+        text-align: justify;
+    }
+    .liste {
+        padding-bottom: 4%;
+    }
+    .button {
+        bottom: 3%;
+    }
+
+    /*Page réalisation*/
+    .img1 {
+        position: absolute;
+        left: 60%;
+        top : 280px;
+    }
+    .img2{
+        position: absolute;
+        left: 5%;
+        top : 55%;
+    }
+    .txt3 {
+        margin-bottom: -5%;
+    }
+
+    /*Centres d'intérêt*/
+    .img3 {
+        position: absolute;
+        left: 65%;
+        top : 250px;
+    }
+    .texte2 {
+        width: 60%;
+        font-size: 1.2em;
+        margin-top: 10%;
+        text-align: justify;
+        margin-left: 20%;
+    }
+
+
+    /*Formulaire*/
+    .titrecontact {
+        margin-top: 6%;
+        font-family: Dayrom, serif;
+        font-size: 2.5em;
+        text-align: center;
+    }
+    .form {
+        margin-top: 1%;
+    }
+    fieldset {
+        margin-bottom: 0.5%;  
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    textarea {
+        width: 35%;
+    }
+    input {
+        margin-top: -8%;
+    }
+    input[type=radio] {
+        margin-left: 3%;
+        margin-right: -1%;
+    }
+    .obligatoire {
+        margin-top: -2%;
+    }
+    input[type=submit] {
+        width: 7%;
+        padding: 0.5%;
+        min-width: 90px;
+    }
+    input[type=reset] {
+        width: 7%;
+        padding: 0.5%;
+        min-width: 90px;
+    }
+}
+/*Tab*/
+@media all and (max-width: 1280px) and (min-width: 625px) {
+    #bloc_page {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    /*Menu gauche*/
+    a.top1 {
+        margin-top: 550px;
+    }
+    a.top2 {
+        margin-left: -0.6%;
+    }
+    a.top3 {
+        margin-left: -0.4%;
+    }
+    
+    /*Footer*/
+    .gauche {
+        position: relative;
+        margin-top: 7%;
+    }
+    .mid {
+        position: relative;
+        margin-top: -3%;
+        text-align: center;
+    }
+    .droite {
+        position: relative;
+        right: -90%;
+        margin-top: -10%;
+    }
+    h1 {
+        text-align: center;
+        margin-top: 70px;
+        font-family: Dayrom, serif;
+        font-size: 2.5em;
+        margin-bottom: 5%;
+    }
+
+
+    /*Page d'accueil*/
+    .anim {
+        margin-top: 0;
+        animation: 5s 1 slidein;
+        text-align: center;
+        margin-top: 50px;
+        font-family: Dayrom, serif;
+        font-size: 2.5em;
+        margin-bottom: 3%;
+    }
+    .carte {
+        margin-left: 20%;
+        width: 600px;
+        height: 320px; 
+    }
+    .imgmoi{
+        position: absolute;
+        left: 5%;
+        top : 37%;
+    }
+
+
+    /*Page CV*/
+    .cv {
+        background: url('images/separateur.png') repeat-x bottom;
+        position: relative;
+        margin-top: 1%;
+        padding: 1%;
+        padding-bottom: 8%;
+        text-align: justify;
+    }
+    .cv em {
+        font-size: 2em;
+    }
+    .form {
+        margin-top: -5.5%;
+    }
+    .exp {
+        margin-top: -5.5%;
+    }
+    .comp {
+        margin-top: -5.5%;
+    }
+    .centres {
+        margin-top: -5.5%;
+    }
+    .cv ul {
+        font-size: 1.2em;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 4%;
+        text-align: justify;
+    }
+
+
+    /*Page realisation*/
+    .img1 {
+        position: absolute;
+        left: 60%;
+        top : 300px;
+    }
+    .img2{
+        position: absolute;
+        left: 5%;
+        top : 58% ;
+    }
+
+
+    /*Centres d'intérêt*/
+    .img3 {
+        position: absolute;
+        left: 65%;
+        top : 270px;
+    }
+    .texte2 {
+        font-size: 1.2em;
+        margin-top: 8%;
+        text-align: justify;
+        margin-left: 52%;
+    }
+
+
+    /*Formulaire*/
+    fieldset {
+        margin-bottom: 0.5%;  
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    textarea {
+        width: 20%;
+    }
+}

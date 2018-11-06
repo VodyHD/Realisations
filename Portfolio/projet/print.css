@@ -1,0 +1,67 @@
+.top {
+	display: none;
+}
+.head1 {
+	display: none;
+}
+.button {
+	display: none;
+}
+footer {
+	display: none;
+}
+h1 {
+	display: none;
+}
+.cv {    
+    position: relative;
+    margin-top: 1%;
+    padding: 1%;
+    padding-bottom: 5%;
+    text-align: justify;
+}
+em {
+	color: red;
+	font-size: 1.1em;
+}
+.form {
+    margin-top: 2.5%;
+}
+.exp {
+    margin-top: 3.5%;
+}
+.comp {
+    margin-top: 3.5%;
+}
+.centres {
+    margin-top: 3%;
+}
+.cv ul {
+	font-size:	0.9em;
+  	margin-left: -5%;
+    width: 95%;
+    text-align: justify;
+}
+.cv {
+    margin-top: -2.9%;
+}
+.comp1 {
+	font-size:	0.9em;
+	margin-left: -1.5%;
+  	width: 95%;
+  	text-align: justify;
+}
+.alinea1 {
+    padding-left: 3em;
+    list-style-type:none;
+}
+.alinea2 {
+    margin-top: 1%;
+    list-style-type:none;
+    padding-left: 2em
+}
+hr {
+    width: 100%;
+    size: 2;
+    color: black;
+}
